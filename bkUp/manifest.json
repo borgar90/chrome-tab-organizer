@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Manager Extension",
+  "version": "1.0",
+  "description": "Manage your open tabs with this extension.",
+  "permissions": ["tabs"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}
